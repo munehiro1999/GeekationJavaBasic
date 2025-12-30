@@ -10,6 +10,6 @@ public class Main {
 		GeekationIntroduction.greeting(intro, age, height);
 		
 		
-		GeekationIntroduction.specialSkils(20, 10);
+		GeekationIntroduction.specialSkils(10, 100);
 	}
 }
