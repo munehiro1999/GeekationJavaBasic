@@ -23,17 +23,17 @@ public class GeekationIntroduction {
 		
 		for (int count = num1; count <= num2; count++) {
 			if (count % 3 == 0 && count % 5 == 0) {
-				System.out.println(count + "3の倍数かつ5の倍数です。");
+				System.out.println(count + "は3の倍数かつ5の倍数です。");
 				continue;
 			} 
 			
 			if (count % 3 == 0) {
-				System.out.println(count + "3の倍数です。");
+				System.out.println(count + "は3の倍数です。");
 				continue;
 			}
 			
 			if (count % 5 == 0) {
-				System.out.println(count + "5の倍数です。");
+				System.out.println(count + "は5の倍数です。");
 			}
 			
 			System.out.println(count);
